@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import Home from './Pages/Home/Home'
 import "@fontsource/montserrat";
+import Produtos from './Pages/Produtos/Produtos';
 
 
 function App() {
@@ -14,6 +15,10 @@ function App() {
   {
     path:"/home",
     element: <Home/>
+  },
+  {
+    path:"/produtos",
+    element: <Produtos/>
   }
   
   ])

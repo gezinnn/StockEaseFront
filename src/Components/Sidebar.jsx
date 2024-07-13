@@ -23,7 +23,7 @@ export default function Sidebar() {
             </div>
             <hr />
             <div className={styles.content}>
-                <div className={styles.options}>
+                <div onClick={() => (window.location.href = "/home")}className={styles.options}>
                     <img src={HomePng} className={styles.icones} />
                     {!isMinimized && <p>Home</p>}
                 </div>
@@ -31,7 +31,7 @@ export default function Sidebar() {
                     <img src={Estoque} className={styles.icones} />
                     {!isMinimized && <p>Estoque</p>}
                 </div>
-                <div className={styles.options}>
+                <div onClick={() => (window.location.href = "/produtos")}className={styles.options}>
                     <img src={Produto} className={styles.icones} />
                     {!isMinimized && <p>Produtos</p>}
                 </div>

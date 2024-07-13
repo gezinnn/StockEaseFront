@@ -14,7 +14,6 @@ export default function Home() {
               StockEase
             </p>
           </div>
-          <button className={styles.btn}>Cadastrar Produto</button>
         </div>
         <div className={styles.content}>
           <ListaProdutoEstoque/>

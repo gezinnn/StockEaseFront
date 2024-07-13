@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fffcf6;
+}
+
+.pages {
+    width: 80%;
+    height: 95%;
+    margin: 1.5% 1% 1% 1%;
+    background-color: #006a6a;
+}
+
+.header {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content {
+    width: 100%;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+}
